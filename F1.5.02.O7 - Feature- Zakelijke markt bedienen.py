@@ -145,14 +145,14 @@ def bonnetje():# hier worden de prijzen van de klanten berekend van zijn/haar be
         print ("totaalprijs:----------------------------------------+=")
         print (f"             {float(aantalhorrentjes*1.25+aantalbolletje*0.95+toppingsprijs)}")
         print (f"klant:{gebruiksersnaam}")
-        print ("geholpen door: Million Berhan")
+        print ("geholpen door: Rene Rambow")
         print (f"----------------------{dezedag}----------------------------") # datum en tijdstip van deze bestelling
     elif soortklant == "b":
         print (f"liters: {aantalliter} x {litersprijs}  =  {aantalliter*litersprijs} ")
         print (f" totaalprijs:                             ={aantalliter*litersprijs}")
         print (f"BTW (6%):                           {aantalliter*litersprijs/100*6} ")
         print (f"klant:{gebruiksersnaam}")
-        print ("geholpen door: Million Berhan")
+        print ("geholpen door: Rene Rambow")
         print (f"----------------------{dezedag}----------------------------") # datum en tijdstip van deze bestelling
 
 def einde(): #hier wordt de klant door het eindproces geleid
